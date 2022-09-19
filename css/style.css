@@ -5,9 +5,26 @@
 }
 
 header{
-    background-image: url(../img/jumbo.png)
-
+    background-image: url(../img/jumbo.png);
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
 }
+
+
+.login {
+    width: 6%;
+    text-align: center;
+    color: black;
+    background-color: white;
+    border-radius: 40%;
+    padding: 0.5rem;
+    height: 6%;
+    margin-top: 1rem;
+    
+}
+
 
 
 .container {
@@ -22,9 +39,19 @@ header{
 ul li{
     display: inline-block;
     flex-basis: 40%;
+    padding: 1.5rem;
 }
 
 
 .container-top{
-    
+    width: 80%;
+    text-align: center;
+    margin: auto;
+
 }
+
+a {
+    
+    text-decoration: none ;
+}
+
