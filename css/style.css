@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
 header{
     background-image: url(../img/jumbo.png);
     height: auto;
@@ -55,3 +58,23 @@ a {
     text-decoration: none ;
 }
 
+.text{
+    justify-content: flex-end;
+    flex-basis: 50%;
+    flex-direction: column;
+    text-align: left;
+    
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+p {
+    line-height: 2rem;
+    padding-top: 3rem;
+}
+
+.section1 {
+    padding-top: 3rem;
+}
