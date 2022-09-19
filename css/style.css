@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-image: url(../img/jumbo.png)
+
+}
+
+
+.container {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+
+
+}
+
+ul li{
+    display: inline-block;
+    flex-basis: 40%;
+}
+
+
+
