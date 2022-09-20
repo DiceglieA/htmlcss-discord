@@ -27,19 +27,44 @@ header{
 
 }
 
-ul li{
+.barra {
     display: inline-block;
-    max-width: 40%;
-    padding: 1.5rem;
+	align-items: center;
+	height: 100%;
+	padding: 0 0.5em;
+	margin: 0 0.001em;
+	color: white;
+	text-decoration: none;
+	white-space: nowrap;
+    
+}
+
+nav {
+    margin: 0;
+
 }
 
 
 .container-top{
-    width: 80%;
+    width: 60%;
     text-align: center;
     margin: auto;
+    padding-bottom: 10rem;
 
 }
+
+h1 { 
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    font-size: bolder;
+    
+}
+
+section > p {
+    margin-bottom: 0.5rem;
+}
+
+
 
 .button {
 	display: inline-block;
@@ -97,7 +122,6 @@ p {
     
 }
 
-}
 
 
 
