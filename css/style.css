@@ -89,19 +89,34 @@ footer {
     background-color: lightslategray;
 
 }
-.final-title {
+.final-title {}
     
+
+footer > div {
+    margin: 0 auto;
+    width: 80%;
+    justify-content: space-between;
 }
 
+footer > div:first-child{
+    border-bottom: 2px solid green;
+}
 
-.foot{
+.social-net {
+    flex-basis: 30%;
 
 }
 
 .column-list {
-    width: 20%;
-    
+    flex-basis: 68%;
 }
+
+.piepage {
+    justify-content: space-between;
+}
+
+
+
 
 
 
