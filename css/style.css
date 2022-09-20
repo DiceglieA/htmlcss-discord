@@ -41,7 +41,7 @@ header{
 
 ul li{
     display: inline-block;
-    flex-basis: 40%;
+    max-width: 40%;
     padding: 1.5rem;
 }
 
@@ -60,7 +60,7 @@ a {
 
 .text{
     justify-content: flex-end;
-    flex-basis: 50%;
+    width: 50%;
     flex-direction: column;
     text-align: left;
     
