@@ -50,6 +50,7 @@ nav {
     text-align: center;
     margin: auto;
     padding-bottom: 10rem;
+   
 
 }
 
@@ -111,15 +112,45 @@ p {
 
 .second{
     flex-direction: row-reverse;
+    
+}
+
+
+.bg {
+   background-color: lightgrey;
+}
+
+.container-down {
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    background: cover;
+}
+
+.btb {
+    background-color: rgb(142, 161, 225);
+    color: white;
+    padding: 0.5rem;
+    margin-top: 0.2rem;
+}
+
+   
+footer {
+    background-color: #23272A;s
 }
 
 .social {
-    width: 30%;
+    color: white;
+
 }
-.column-list {
-    flex-direction: column;
-    width: 17%;
-    
+
+.ita {
+    width: 1.5rem;
+}
+
+h3    {
+    color: #7289da;
+    font-size: 1.2rem;
 }
 
 
