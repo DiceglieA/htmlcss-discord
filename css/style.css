@@ -136,7 +136,7 @@ p {
 
    
 footer {
-    background-color: #23272A;s
+    background-color: #23272A;
 }
 
 .social {
@@ -148,10 +148,19 @@ footer {
     width: 1.5rem;
 }
 
-h3    {
+h4  {
     color: #7289da;
     font-size: 1.2rem;
 }
+
+.title {
+    color: #7289da;
+}
+
+li {
+    color: white;
+}
+
 
 
 
