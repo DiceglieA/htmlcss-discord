@@ -161,7 +161,12 @@ li {
     color: white;
 }
 
-
+.foot-menu {
+    flex-basis: 68%;
+}
+ .striscia {
+    border-top: 2px solid #7289da;
+ }
 
 
 
