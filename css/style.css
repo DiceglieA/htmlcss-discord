@@ -175,7 +175,21 @@ li {
     width: 80%;
     margin: auto;
     justify-content: space-between;
+
+}
     
+li {
+    line-height: 2.5rem;
+}
+
+footer {
+    padding: 2.5rem;
+}
+
+section {
+    padding-bottom: 3.5rem;
+}
+ 
 
 
 
